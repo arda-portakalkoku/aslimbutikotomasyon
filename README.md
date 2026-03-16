@@ -1,45 +1,50 @@
- Aslı'm Butik Konsol Otomasyonu (C#)
+# 🛍️ Aslı'm Butik — Console Automation (C#)
 
-Bu proje, C# dilinde temel konsol uygulamaları geliştirme becerilerini pekiştirmek amacıyla yazılmış, basit bir mağaza/butik yönetim simülasyonudur. Uygulama, temel finansal işlemleri ve kullanıcı girişi yönetimi gibi kritik programlama prensiplerini göstermektedir.
-
----
-
-Proje Hedefleri ve Özellikleri
-
-Proje, aşağıdaki temel C# konularını uygulamalı olarak göstermektedir:
-
- 1. Güvenli Girdi Yönetimi (Hata Yakalama)
-
-`Try-Catch` Kullanımı:** Kullanıcının sayısal veri girmesi gereken alanlarda (`ürün no`, `adet`, `para yatırma tutarı`), hatalı (metinsel) giriş yapılması durumunda uygulamanın çökmesi engellenmiştir. Bu, uygulamanın kararlılığını artırır.
-* **Akış Kontrolü:** Hatalı veya geçersiz ürün numarası girişlerinden sonra (`continue` komutuyla) kullanıcıya tekrar deneme fırsatı verilir; program akışı kesintiye uğramaz.
-
-2. Finansal Mantık ve Veri Yönetimi
-
-* **Bakiye Güncelleme:** Para yatırma işleminde, **`+=` operatörü** kullanılarak mevcut bakiyenin üzerine doğru bir şekilde ekleme yapılır.
-* **Komisyon Hesaplama:** Yatırılan tutardan %2 oranında komisyon kesintisi yapılmaktadır.
-* **Dizi (Array) Yapısı:** Ürün isimleri ve fiyatları, programatik yönetimi kolaylaştırmak için paralel dizilerde tutulmuştur.
-
- 3. Kullanıcı Deneyimi ve Navigasyon
-
-* **Menü Yönetimi (`while` Döngüsü):** Ana menü, kullanıcı çıkış yapana kadar sürekli olarak erişilebilir durumdadır.
-* **Geri Dönüş Mekanizması:** Alt menülerden (`Satın Alma`) ana menüye, `return` komutu kullanılarak anında ve temiz bir şekilde dönüş sağlanmıştır.
+A lightweight console-based boutique management simulation built with C#.  
+Designed to demonstrate core programming principles including error handling,  
+financial logic, and menu-driven navigation.
 
 ---
 
-Teknik Yapı
+## 🚀 Features
 
-* **Programlama Dili:** C#
-* **Geliştirme Ortamı:** .NET Console Uygulaması
-* **Kullanılan Temel C# Elemanları:** Static Metotlar, Diziler, Döngüler (`while`, `for`), Karar Yapıları (`if/else`), Hata Yönetimi (`try-catch`).
-
----
-
-## Kullanım Talimatları
-
-1.  Projenin kaynak kodunu indirin.
-2.  Visual Studio'da açın.
-3.  Uygulamayı çalıştırın ve konsol ekranındaki yönergeleri takip edin.
+- 🔐 **Secure Input Handling** — Try-Catch blocks prevent crashes on invalid input
+- 💰 **Financial Logic** — Balance updates, 2% commission calculation
+- 🗂️ **Product Management** — Parallel arrays for product names and prices
+- 🔄 **Menu Navigation** — While-loop driven persistent menu system
+- ↩️ **Clean Flow Control** — Seamless transitions between menus
 
 ---
 
-*Bu proje, öğrenme ve C# dilindeki temel yapıları pekiştirme amaçlı oluşturulmuştur.*
+## 🛠️ Tech Stack
+
+| Tool | Details |
+|------|---------|
+| Language | C# |
+| Platform | .NET Console Application |
+| IDE | Visual Studio |
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+   git clone https://github.com/arda-portakalkoku/aslimbutikotomasyon.git
+2. Open in Visual Studio
+3. Run the project (F5)
+4. Follow the on-screen instructions
+
+---
+
+## 🎯 What I Learned
+
+- Implementing error-safe user input with Try-Catch
+- Managing application state with arrays and loops
+- Designing clean console UI with menu-driven architecture
+
+---
+
+## 👨‍💻 Author
+
+**Arda Portakalkökü** — [Portfolio](http://ardaportakalkoku.com) · 
+[Blog](https://ardacodes.blogspot.com)
